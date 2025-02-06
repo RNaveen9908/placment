@@ -4,12 +4,23 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
+.original-price {
+            text-decoration: line-through;
+            color: grey;
+            font-size: 14px;
+        }
+
 
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
+.rating {
+            color: grey;
+            font-size: 14px;
+        }
+
 
 .product-grid {
     display: flex;
@@ -38,10 +49,12 @@ body {
 }
 
 .discount {
-    background-color: red;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
+    background-color: #ff4d4d;
+            color: white;
+            font-size: 12px;
+            padding: 2px 5px;
+            border-radius: 5px;
+            margin-left: 5px;
     
 }
 
